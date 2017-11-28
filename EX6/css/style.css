@@ -1,0 +1,23 @@
+p{
+    font-style: italic;
+}
+
+article p{
+    font-size: x-small;
+}
+
+article > p {
+    color: red;
+}
+
+article > section > p {
+    color: blue;
+}
+
+article > section > p:first-child {
+    color:pink;
+}
+
+article > section > p:last-child {
+    font-weight:bold;
+}
